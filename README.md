@@ -4,8 +4,8 @@
 
 This repository contains the core code used in two research projects on **multi-qubit tetrahedral measurement bases** and their classification under **Clifford hierarchy and local equivalence**. It includes all scripts used in the numerical and symbolic analyses presented in:
 
-- **[Pauli-Orbit Bases: Symmetry, Local Encodability, and Localizability](https://arxiv.org/abs/XXXX.XXXXX)** 
-- **[The Multiqubit Elegant Joint Measurement}](https://arxiv.org/abs/YYYY.YYYYY)**
+- **[Geometry and Localizability of Pauli-Orbit Measurements](https://arxiv.org/abs/XXXX.XXXXX)** 
+- **[The Multiqubit Elegant Joint Measurement](https://arxiv.org/abs/YYYY.YYYYY)**
 
 ---
 
@@ -34,9 +34,6 @@ These scripts focus on characterizing and classifying the **Elegant Joint Measur
   Performs a **complete classification** of 3-qubit EJM bases **up to local Clifford equivalence**, using symbolic methods and symmetry checks.
 
 - **`PPIsimple.nb`** *(Mathematica)*  
-  Verifies the **analytic form** of the canonical 3-qubit EJM state derived in Appendix B of The Multiqubit Elegant Joint Measurement, including its polynomial phase and tensor product structure.
-
-  - **`PPIsimple.nb`** *(Mathematica)*  
   Verifies the **analytic form** of the canonical 3-qubit EJM state derived in Appendix B of The Multiqubit Elegant Joint Measurement, including its polynomial phase and tensor product structure.
 
 - **`Cyril_family.nb`** *(Mathematica)*  
