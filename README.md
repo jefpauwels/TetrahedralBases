@@ -36,6 +36,18 @@ These scripts focus on characterizing and classifying the **Elegant Joint Measur
 - **`PPIsimple.nb`** *(Mathematica)*  
   Verifies the **analytic form** of the canonical 3-qubit EJM state derived in Appendix B of The Multiqubit Elegant Joint Measurement, including its polynomial phase and tensor product structure.
 
+  - **`PPIsimple.nb`** *(Mathematica)*  
+  Verifies the **analytic form** of the canonical 3-qubit EJM state derived in Appendix B of The Multiqubit Elegant Joint Measurement, including its polynomial phase and tensor product structure.
+
+- **`Cyril_family.nb`** *(Mathematica)*  
+  Analyzes the localizability of a family of measurements (https://arxiv.org/abs/2006.16694) that interpolates between the Bell basis and the EJM
+
+## Data
+
+This folder contains plain-text output files from the Python codes. These include:
+- Classification results for 2-qubit tetrahedral bases.
+- Outputs from `EJM_finder.py`, which searches for new EJM-type fiducials. This is the input for LCE_3qubit.py
+
 ---
 
 ## Dependencies
